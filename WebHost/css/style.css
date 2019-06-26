@@ -1,0 +1,78 @@
+/* google Fonts  */
+
+/* header */
+header{
+    background: linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)), url(/WebHost/img/datahost2.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.border{
+    border: 1px solid black !important;
+}
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.1rem;
+}
+.mtop{
+    margin-top: 13rem;
+}
+.para{
+    font-size: 1rem;
+}
+.login{
+    padding-left: 43px !important;
+    padding-right: 43px !important;
+    border-color: #fff !important; 
+   
+    border-radius: 100px !important;
+}
+.login:hover{
+    background-color: #1d2441 !important ;
+    border-color: #1d2441 !important; 
+}
+.getstarted{
+    margin-left: 28rem;
+    margin-right: 28rem;
+    border-radius: 100px !important;
+    border-color: #fff !important; 
+}
+.getstarted:hover{
+    background-color: #1d2441 !important ;
+    border-color: #1d2441 !important; 
+
+}
+.nlink{
+    margin-left:2rem; 
+    border-bottom: 1px solid #fff;
+}
+.secured{
+    font-size: 3.9rem;
+    font-weight: 300 !important;
+}
+.navbar-collapse li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+/* header ends */
+/* SEARCH BOX */
+.searchBox{
+    height: 20vh !important;
+   background-color: #f9f9ff;
+
+
+}
+ input[type=email]{
+
+    width: 34rem !important;
+    padding: 10px !important;
+}
+.checkbox input[type=checkbox]{
+    height: 15px;
+    width: 15px;
+    color: #fff !important ;
+    background-color: #000 !important;
+}
