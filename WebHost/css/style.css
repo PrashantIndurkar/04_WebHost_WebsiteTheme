@@ -18,7 +18,7 @@ header{
     letter-spacing: 0.1rem;
 }
 .mtop{
-    margin-top: 13rem;
+    margin-top: 13rem !important;
 }
 .para{
     font-size: 1rem;
@@ -27,7 +27,6 @@ header{
     padding-left: 43px !important;
     padding-right: 43px !important;
     border-color: #fff !important; 
-   
     border-radius: 100px !important;
 }
 .login:hover{
@@ -61,18 +60,94 @@ header{
 /* SEARCH BOX */
 .searchBox{
     height: 20vh !important;
-   background-color: #f9f9ff;
-
-
+    background-color: #f9f9ff;
 }
  input[type=email]{
-
-    width: 34rem !important;
+    margin-left: 0rem !important;
+    width: 40rem !important;
     padding: 10px !important;
+    background-color: #f9f9ff !important;
+    border: 1px solid #dbd9e6;
 }
-.checkbox input[type=checkbox]{
-    height: 15px;
-    width: 15px;
-    color: #fff !important ;
-    background-color: #000 !important;
+.btn-success{
+    padding:10px 40px 10px 40px !important; 
+    background-color: #1d2441 !important;
+    border: none !important;
 }
+.btn-success:hover{
+    color: #1d2441;
+    background:linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)) !important;
+
+}
+.mtop1{
+    margin-top: 2.3rem !important;
+}
+/* CUSTOMER */
+.customer img{
+    width: 7rem;
+}
+/* space */
+.Space{
+    margin-top:7rem !important; 
+}
+.Space-text{
+    color: #6958a8 !important;
+}
+.Space .card{
+    border: none !important;
+    background-color: #f9f9ff;
+    color: #000;
+    width: 22rem !important;
+    height: 17rem !important;
+}
+.Space .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+.Space img{
+   height: 5rem !important;
+   width: 5rem !important;
+
+}
+.pricing{
+    height: 100vh;
+}
+.pricing .img{
+    background: linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)),  url(/WebHost/img/datahost1.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.pricing .hr{
+    border: 0.6px solid #fff;
+    width: 16rem;
+}
+.pricing .card{
+    height: 40rem;
+    background-color: #f9f9ff;
+}
+.pricing .btn-outline-success{
+    margin-top: 1rem !important;
+    padding:10px 40px 10px 40px !important; 
+    color: #000 !important;
+    border : 1px solid #000 !important; 
+    border-radius: 100px !important;
+}
+.pricing .money{
+    font-size: 2.7rem;
+}
+.pricing .card:hover {
+    color: #000 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+
+}
+.pricing .card:hover .btn-outline-success{
+    border : 1px solid rgba(37,34,154, 0.9) !important;
+    color: #fff !important;
+    background:linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)) !important;
+    transition:background 3s;
+}
+/* Services */
