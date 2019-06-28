@@ -213,6 +213,8 @@ footer .sendbtn{
     border : 1px solid rgba(37,34,154, 0.9)  !important; 
     border-radius: 100px !important;
 }
-hr{
-    color: #fff !important;
+footer .footer-bottom{
+    border-top: 1px solid #42496d;
+    margin-top: 7px;
+    padding: 25px 0;
 }
