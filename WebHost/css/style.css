@@ -62,6 +62,9 @@ header{
     height: 20vh !important;
     background-color: #f9f9ff;
 }
+.searchBox .searchboxText{
+    color: #221e8a;
+}
  input[type=email]{
     margin-left: 0rem !important;
     width: 40rem !important;
@@ -90,8 +93,8 @@ header{
 .Space{
     margin-top:7rem !important; 
 }
-.Space-text{
-    color: #6958a8 !important;
+.space-text{
+    color: #221e8a !important;
 }
 .Space .card{
     border: none !important;
@@ -108,6 +111,9 @@ header{
    height: 5rem !important;
    width: 5rem !important;
 
+}
+.Space h4{
+    color: #221e8a
 }
 .pricing{
     height: 100vh;
@@ -142,6 +148,7 @@ header{
     color: #000 !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition-duration: 0.3s;
+    background-color: #fff;
 
 }
 .pricing .card:hover .btn-outline-success{
@@ -151,3 +158,61 @@ header{
     transition:background 3s;
 }
 /* Services */
+.services-text{
+    color: #221e8a !important;
+}
+.services h4{
+    color: #221e8a;
+}
+.services .card{
+    border: none !important;
+    color: #000;
+    width: 22rem !important;
+    height: 21rem !important;
+}
+.services .card:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.6s;
+}
+/* Subscribe  */
+.subscribe {
+    background-color: #f9f9ff;
+    height: 40vh;
+    color: #221e8a !important;
+}
+
+.subscribe .form-control{
+    border: 0;
+    border-radius: 0;
+    border-bottom:1px solid rgb(189, 189, 189); 
+    width: 2rem !important;
+
+} 
+
+.subscribe .btn-outline-success{
+    margin-top: 1rem !important;
+    padding:10px 40px 10px 40px !important; 
+    background:linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)) !important;
+    color: #fff;
+    border : 1px solid  !important; 
+    border-radius: 100px !important;
+}
+/* footer */
+footer{
+    background-color: #0c112a;
+    height: 45vh;
+    color: #fff;
+}
+footer input{
+    
+    border-radius: 100px !important;
+}
+footer .sendbtn{
+    background:linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)) !important;
+    color: #fff !important;
+    border : 1px solid rgba(37,34,154, 0.9)  !important; 
+    border-radius: 100px !important;
+}
+hr{
+    color: #fff !important;
+}
