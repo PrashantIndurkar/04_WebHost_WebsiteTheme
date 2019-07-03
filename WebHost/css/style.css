@@ -2,7 +2,7 @@
 
 /* header */
 header{
-    background: linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)), url(/WebHost/img/datahost2.jpg);
+    background: linear-gradient(to right,  rgba(37,34,154, 0.9),rgba(153, 37, 105, 0.9)), url(/img/datahost2.jpg);
     height: 80vh;
     background-position: center;
     background-size: cover;
